@@ -2,11 +2,11 @@ var mysql = require('mysql');
 
 var pool = mysql.createPool({
     connectionLimit: 10,
-    host: 'tigu.hk.tlu.ee',
+    host: '',  // minu projekt Tigu serveris
     port: 3306,
-    user: 'jurikormik',
-    password: 'MNbd9sYF',
-    database: 'jurikormik',
+    user: '',
+    password: '',
+    database: '',
     multipleStatements: true
 });
 
